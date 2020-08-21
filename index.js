@@ -59,6 +59,6 @@ if (cart[i].itemName === item) {
 
 
 function placeOrder(cardNumber) {
-  
+  if (cardNumber === 83296759) {
   
 }
