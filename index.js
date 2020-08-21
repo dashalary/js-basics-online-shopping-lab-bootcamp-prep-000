@@ -40,7 +40,7 @@ function total() {
   for (let i = 0; i < cart.length; i++) {
     var sum = `${cart[i].itemPrice} `
   } 
-    return total + sum;
+    return total;
   
 }
 
