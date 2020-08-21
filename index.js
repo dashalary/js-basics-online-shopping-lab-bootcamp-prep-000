@@ -59,7 +59,12 @@ if (cart[i].itemName === item) {
 
 
 function placeOrder(cardNumber) {
-  if (cardNumber === 83296759) {
-  cart.length = 100
-  return `Your total cost is $${cartTotal}, which will be charged to the card ${car
+  const cartTotal = total();
+  
+  if (cardNumber === 12345678) {
+ 
+  return `Your total cost is $${cartTotal}, which will be charged to the card ${cardNumber}.`
+}
+}
+return `Sorry, we don't have a credit card on file for you.`
 }
