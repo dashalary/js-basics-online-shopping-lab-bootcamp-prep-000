@@ -48,9 +48,11 @@ function total() {
 
 function removeFromCart(item) {
 if (cart.itemName === item) {
-  
+  cart.splice(item)
 }
-
+else { return `That item is not in your cart.`
+}
+return cart
 }
 
 function placeOrder(cardNumber) {
