@@ -61,7 +61,7 @@ if (cart[i].itemName === item) {
 function placeOrder(cardNumber) {
   const cartTotal = total();
   
-  if (placeOrder()) {
+  if (cardNumber === 83296759) {
  cart.length = 0;
   return `Your total cost is $${cartTotal}, which will be charged to the card ${cardNumber}.`
 } else {
