@@ -47,7 +47,9 @@ function total() {
 
 
 function removeFromCart(item) {
-
+if (cart.itemName === item) {
+  
+}
 
 }
 
