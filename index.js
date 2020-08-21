@@ -42,7 +42,7 @@ function total() {
     return total;
   
 }
-}
+
 
 
 function removeFromCart(item) {
