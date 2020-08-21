@@ -42,13 +42,13 @@ function total() {
     total = total + sum
   } 
     return total;
-  
 }
 
 
 
 function removeFromCart(item) {
-  // write your code here
+
+
 }
 
 function placeOrder(cardNumber) {
